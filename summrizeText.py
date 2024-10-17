@@ -12,6 +12,6 @@ custom datasets. NLP research and applications have become more accessible thank
 """
 
 # Get the summary
-summary = summarizer(text, max_length=50, min_length=25, do_sample=False)
+summary = summarizer(text, max_length=30, min_length=15, do_sample=False)
 
 print("Summary:", summary[0]['summary_text'])
